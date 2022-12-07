@@ -1,0 +1,78 @@
+.sugest{
+    color: brown;
+    /* width: 300px; */
+    height: 725px;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column-reverse;
+    margin-left: 30px;
+    
+}
+
+.foto_nome_sugest1{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    
+    margin-bottom: 70px;
+    flex-direction: column;
+}
+
+.foto_nome_sugest1 svg{
+   color: royalblue;
+   width: 30px;
+   height: 30px;
+}
+
+.nome_fotinha1{
+    width: 200px;
+    height: 50px;
+    margin-top:6px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.nome_fotinha2{
+    width: 50px;
+    height: 50px;
+    margin-top: 28px;
+    /* margin-left: 40px; */
+    margin-right: 120px;
+}
+
+.img_perfil_fotinha {
+    width: 35px;
+    height: 35px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 1px;
+    border-radius: 50px;
+    border: 3px solid rgb(106, 21, 209);
+    margin-bottom: 7px;
+    }
+
+    .img_perfil_fotinha svg {
+        width: 50px;
+        height: 45px;
+        margin-top: 8px;
+        margin-left: 10px;
+        margin-right: 1px;
+        border-radius: 50px;
+        border: 3px solid rgb(106, 21, 209);
+        }
+
+        .legenda_sugest{
+            margin-left: 10px;
+            color: gray;
+
+        }
+
+        .curtidas{
+            width: 45px;
+            height: 50px;
+            display: flex;
+            margin: 0;
+            
+        }
+
+        

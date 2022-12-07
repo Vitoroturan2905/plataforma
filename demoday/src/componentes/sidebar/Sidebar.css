@@ -1,0 +1,150 @@
+.sidebar-header-side{
+    
+    width: 500px;
+    height: 100%;
+    display: flex;
+    background-color:  rgb(209, 209, 209);
+   justify-content: space-between;
+   margin-top: 4.6%;
+   position: fixed;
+   margin-left: -215px;
+    
+} 
+
+.listItem-side{
+    display: flex;
+    width: 700px;
+    height: 1200px;
+    padding: 1px;
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+
+.topics{
+    margin-top: 15px;
+    color: #4e008e;
+    font-size: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.topics-trend{
+    margin-top: 20px;
+    color: #ff5500;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.politica-side{
+    margin-top: 90px;
+    color: #ff5500;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.politica-side_land{
+    margin-top: 20px;
+    color: #ff5500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.imgens_geral_side{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px; 
+    overflow-y : scroll;
+    cursor: pointer;
+    
+}
+
+.perf{
+    margin-top: 30px;
+    color: #ff5500;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nome_perf{
+    margin-top: 5px;
+    color: #4e008e;
+    font-size: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nome_perf_seguir{
+    margin-top: 8px;
+    color: #ff5500;
+    font-size: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.img_side{
+    height: 100px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.img_side img{
+    height: 30px;
+    width: 30px;
+}
+
+.a-side{
+    color: #ff5500;
+    margin-bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.pra_voce{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+
+.pra_voce svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+
+
+.iconeItem svg{
+    color: rgb(110, 199, 9);
+    margin: 10px 5px 0 10px;
+    cursor: pointer;
+}
+
+.imgens_geral_side::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+  }
+  
+  .imgens_geral_side::-webkit-scrollbar-track {
+    background: #ffffff;       /* color of the tracking area */
+  }
+  
+  .imgens_geral_side::-webkit-scrollbar-thumb {
+    background-color:#857b76;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid #847770;   /* creates padding around scroll thumb */
+  }
+  
